@@ -3,19 +3,19 @@
 
 variable "token" {
   type        = string
-  default     = "y0_AgAAAAALqyq2AATuwQAAAAEG1dJbAAAS6NxGvjlEzpmGmk2dO-x5HpLWxQ"
+  default     = " "
   description = "OAuth-token; https://cloud.yandex.ru/docs/iam/concepts/authorization/oauth-token"
 }
 
 variable "cloud_id" {
   type        = string
-  default     = "b1gbdfgmffht7ksubsob"
+  default     = " "
   description = "https://cloud.yandex.ru/docs/resource-manager/operations/cloud/get-id"
 }
 
 variable "folder_id" {
   type        = string
-  default     = "b1gp22euiq9hfobbgsqq"
+  default     = " "
   description = "https://cloud.yandex.ru/docs/resource-manager/operations/folder/get-id"
 }
 
